@@ -7,6 +7,10 @@ import com.kdani.dagger2_11.di.scope.PerActivity;
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 
+/**
+ * Created by KD on 11/5/17.
+ */
+
 @Module
 public abstract class ActivityModule {
 

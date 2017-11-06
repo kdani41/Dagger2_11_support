@@ -21,7 +21,6 @@ public abstract class BaseActivity extends DaggerAppCompatActivity {
     @Inject
     FragmentManager fragmentManager;
 
-
     protected final void addFragment(@IdRes int containerViewId, Fragment fragment) {
         Fragment existingFrag = getSupportFragmentManager().findFragmentById(containerViewId);
         if (existingFrag == null) {
