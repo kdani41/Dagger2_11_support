@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dagger2_11</string>
+    <string name="title_feature1">Module Title</string>
 </resources>
